@@ -11,8 +11,7 @@ RUN chmod 0644 /etc/cron.d/hello-cron
 RUN touch /var/log/cron.log
 
 #Install Cron
-RUN apt-get update
-RUN apt-get -y install cron
+RUN yum update -y
 
 
 # Run the command on container startup
