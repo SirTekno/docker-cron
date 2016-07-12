@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM centos
 MAINTAINER docker@ekito.fr
 
 # Add crontab file in the cron directory
